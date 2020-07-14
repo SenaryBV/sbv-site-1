@@ -1,13 +1,12 @@
 // Import Fonts from Google
-// -- Display
-@import url('https://fonts.googleapis.com/css?family=Uncial+Antiqua&display=swap');
+// -- Main Font
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@300;400;600;700;900&display=swap');
 // --  Data (Mono)
 
 // -- Body
-@import url('https://fonts.googleapis.com/css?family=Mirza:400,500,600,700&display=swap');
 
 // Palette
-$primary: #ff3864;
+$primary: #77A7E6;
 $primary-hover: lighten($primary, 5%);
 
 //Media Queries
@@ -15,8 +14,8 @@ $tablet: 768px;
 $phone: 480px;
 
 // Typography
-$body-font: 'Mirza', serif;
-$heading-font: 'Uncial Antiqua', serif;
+$body-font: 'Muli', sans-serif;
+$heading-font: 'Muli', sans-serif;
 $body-font-size: 28px;
 
 // General Colors

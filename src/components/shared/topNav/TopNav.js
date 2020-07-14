@@ -18,10 +18,10 @@ const TopNav = () => {
   return (
     <>
       <nav className="TopNav__Desktop">
-        <a href="/#manifesto">Manifesto</a>
-        <a href="/#services">Services</a>
-        <Link to="/join">Join</Link>
-        <Link to="/hire">Hire</Link>
+        <a href="/#home">Home</a>
+        <a href="/#commonwealth">Commonwealth</a>
+        <a href="/#get-involved">Get Involved</a>
+        <Link to="/our-story">Our Story</Link>
       </nav>
       {/* Start Hamburger */}
       <button className={hamburgerClass} type="button" onClick={toggleNav}>
@@ -31,17 +31,17 @@ const TopNav = () => {
       </button>
       <div className={mobileNavClass}>
         <div className="TopNav__Mobile--Contents">
-          <a href="/#manifesto" onClick={toggleNav}>
-            Manifesto
+          <a href="/#home" onClick={toggleNav}>
+            Home
           </a>
-          <a href="/#services" onClick={toggleNav}>
-            Services
+          <a href="/#commonwealth" onClick={toggleNav}>
+            Commonwealth
           </a>
-          <Link to="/join" onClick={toggleNav}>
-            Join
+          <Link to="/#get-involved" onClick={toggleNav}>
+            Get Involved
           </Link>
-          <Link to="/hire" onClick={toggleNav}>
-            Hire
+          <Link to="/our-story" onClick={toggleNav}>
+            Out Story
           </Link>
         </div>
       </div>

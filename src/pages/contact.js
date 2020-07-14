@@ -1,5 +1,5 @@
 import React from 'react'
-import { ReactTypeformEmbed } from 'react-typeform-embed'
+// import { ReactTypeformEmbed } from 'react-typeform-embed'
 
 import Layout from '../components/layout/layout'
 
@@ -39,7 +39,7 @@ const ContactPage = () => {
             </button>
           </div>
         </div>
-        <div>
+{/*         <div>
           <ReactTypeformEmbed
             popup
             autoOpen={false}
@@ -65,7 +65,7 @@ const ContactPage = () => {
               joinEmbed = tf
             }}
           />
-        </div>
+        </div> */}
       </Layout>
     </>
   )

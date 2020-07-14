@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import TopNav from '../topNav/TopNav'
 
-import Brand from '../../../images/raidguild__logo.png'
+import Brand from '../../../images/sbv__logo.png'
 import './header.scss'
 
 const Header = ({ siteTitle }) => (

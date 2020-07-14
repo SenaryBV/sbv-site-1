@@ -14,6 +14,7 @@
   &__Desktop {
     margin-left: auto;
     display: none;
+    white-space: nowrap;
     @media (min-width: $tablet) {
       display: flex;
       align-items: center;
@@ -28,10 +29,11 @@
       margin-left: 50px;
       color: $primary;
       text-decoration: none;
+      font-size: .7em;
+      color: white;
       &:after {
         content: '';
         background-color: transparent;
-        height: 3px;
         width: 100%;
         position: absolute;
         bottom: 0;
@@ -41,7 +43,6 @@
       &:hover:after {
         content: '';
         background-color: $primary;
-        height: 3px;
         width: 100%;
         position: absolute;
         bottom: 0;
@@ -97,7 +98,6 @@
     pointer-events: all;
   }
 }
-
 // Old -- Refactoring
 
 .navbar__hamburger {

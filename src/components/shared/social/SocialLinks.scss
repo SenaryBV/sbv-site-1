@@ -1,0 +1,21 @@
+@import '../../../styles/variables';
+
+.SocialLinks {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: $grid;
+  margin: 0 auto;
+  justify-content: left;
+  img {
+    height: 30px;
+    margin-right: 15px;
+  }
+}
+
+.Nav {
+  .SocialLinks {
+    margin-left: 50px;
+  }
+}

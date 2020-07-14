@@ -1,56 +1,42 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import Brand from '../../../images/raidguild__logo.png'
+import SocialLinks from '../social/SocialLinks'
 import './footer.scss'
 
 const Footer = ({ siteTitle }) => (
   <div className="Footer">
     <div className="Footer__Contents">
-      <Link className="Logo" to={`/`}>
-        <img src={Brand} alt="Brand" />
-      </Link>
       <nav className="Nav">
         <a
           className="Nav__Link"
-          href="https://twitter.com/RaidGuild"
+          href="/#home"
           rel="noopener noreferrer"
-          target="_blank"
         >
-          Twitter
+          Home
         </a>
         <a
           className="Nav__Link"
-          href="https://discord.gg/aSBzBha"
+          href="/#commonwealth"
           rel="noopener noreferrer"
-          target="_blank"
         >
-          Discord
+          Commonwealth
         </a>
         <a
           className="Nav__Link"
-          href="https://github.com/orgs/raid-guild/"
+          href="/#get-involved"
           rel="noopener noreferrer"
-          target="_blank"
         >
-          Github
+          Get Involved
         </a>
         <a
           className="Nav__Link"
-          href="https://medium.com/raid-guild"
+          href="/our-story#ourstory-home"
           rel="noopener noreferrer"
-          target="_blank"
         >
-          Medium
+          Our Story
         </a>
-        <a
-          className="Nav__Link"
-          href="https://handbook.raidguild.org"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Handbook
-        </a>
+        <SocialLinks />
       </nav>
     </div>
   </div>

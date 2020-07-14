@@ -11,6 +11,18 @@ body {
   background: $background-dark;
   font-weight: 400;
 }
+p.light {
+  font-weight: 300;
+}
+p.semi-bold {
+  font-weight: 600;
+}
+p.bold {
+  font-weight: 700;
+}
+p.black {
+  font-weight: 800;
+}
 
 p {
   font-family: $body-font;
@@ -60,11 +72,11 @@ img {
   border: 2px solid $primary;
   color: $primary;
   background: transparent;
-  padding: 10px 15px 0px;
+  padding: 10px 15px;
   display: inline-block;
   vertical-align: middle;
   border-radius: 5px;
-  font-size: 1em;
+  font-size: .8em;
   &:hover {
     border: 2px solid $primary-hover;
     color: $primary-hover;
@@ -79,6 +91,7 @@ img {
 }
 
 .ButtonGroup {
+  margin: 70px 0;
   .Button:not(:last-child) {
     margin-right: 15px;
   }
@@ -120,7 +133,8 @@ iframe {
   }
   &__Contents {
     padding: $base-padding;
-    padding-left: 150px;
+    padding-top: 160px;
+    padding-left: 100px;
     width: calc(100% - 100px);
     height: calc(100% - 100px);
     h1 {
@@ -135,15 +149,17 @@ iframe {
   &.Home {
     h1,
     p {
-      font-size: 1.5em;
-      line-height: 1.15em;
-      max-width: 500px;
+      font-size: .9em;
+      line-height: 1.5em;
+      max-width: 600px;
       margin-bottom: 50px;
+      color: white;
     }
-    background-image: url('../images/raid__banner-img.png');
+    background-image: url('../images/sbv__banner-img.png');
+    background-color: #28384D;
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center right;
+    background-position: bottom right;
     @media (min-width: 769px) and (max-width: 1201px) {
       background-size: 50%;
       background-position: bottom right;
@@ -166,6 +182,34 @@ iframe {
 
 .Block {
   position: relative;
+  p {
+    font-size: 0.7em;
+    line-height: 1.75em;
+  }
+  h1 {
+    font-weight: 700;
+    font-size: 2em;
+    color: white;
+  }
+  h4 {
+    font-weight: 600;
+    color: white;
+  }
+  &.GetInvolved {
+    text-align: left;
+    background-color: #50709A;
+    background-image: url('../images/sbv__banner-img.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+      p {
+        max-width: 600px;
+      }
+      a {
+        color:white;
+        text-decoration: underline;
+      }
+  }
   &__Contents {
     width: calc(100% - 300px);
     padding: $base-padding * 3;
@@ -178,7 +222,70 @@ iframe {
     }
   }
 }
-
+.Hero {
+  &.OurStory {
+    background-image: none;
+    background-color: #141C27;
+    h1 {
+      font-weight: 700;
+      font-size: 2em;
+      color: $primary;
+      margin-bottom: 30px;
+    }
+    p {
+      max-width: 100%;
+      font-size: 0.7em;
+      line-height: 1.75em;
+      margin-bottom: 30px;
+    }
+  }
+  .OurStory__Contents {
+      border: 2px solid $primary;
+      pointer-events: none;
+      margin: 80px 0;
+      padding: 40px 100px;
+  }
+  .Team {
+    h1 {
+      color: white;
+      margin-bottom: 60px;
+    }
+    p {
+      font-weight: 300;
+    }
+    .Grid {
+      flex-wrap: nowrap;
+      margin-bottom: 80px;
+    }
+    .TeamMember {
+      .TeamProfile {
+        width: 100px;
+        height: 100px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 50%;
+        img {
+          display: inline;
+          margin: 0 auto;
+          height: 100%;
+          width: auto;
+        }
+      }
+      h1 {
+        font-weight: 800;
+        font-size: 1em;
+        margin-bottom: 0px;
+        color: $primary;
+      }
+      h2 {
+        font-weight: 400;
+        font-size: 1em;
+        margin-top: 0;
+        color: white;
+      }
+    }
+  }
+}
 // Elements
 .Row,
 .Grid {
@@ -203,10 +310,26 @@ iframe {
     }
   }
   &--33 {
-    flex-basis: 30%;
-    margin-right: 3%;
+    flex-basis: 27%;
+    margin-right: 6%;
     &:nth-child(3n) {
       flex-basis: 33%;
+      margin-right: 0;
+    }
+  }
+  &--25 {
+    flex-basis: 20%;
+    margin-right: 5%;
+    &:nth-child(3n) {
+      flex-basis: 20%;
+      margin-right: 0;
+    }
+  }
+  &--75 {
+    flex-basis: 75%;
+    margin-right: 0%;
+    &:nth-child(3n) {
+      flex-basis: 20%;
       margin-right: 0;
     }
   }
@@ -293,6 +416,7 @@ iframe {
 }
 
 .Join {
+  background-color: #141C27;
   .Column--33 {
     text-align: center;
     svg {
@@ -301,11 +425,7 @@ iframe {
   }
 }
 
-.Portfolio {
-  text-align: center;
-  .Block__Contents {
-  }
-}
+
 
 .Portfolio__Images {
   display: flex;

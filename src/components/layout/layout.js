@@ -27,15 +27,15 @@ const Layout = ({ children }) => (
             {
               name: 'description',
               content:
-                'A Decentralized Collective of Mercenaries Ready to Slay Your Web3 Product Demons',
+                'SBV is a multidisciplinary innovation firm devoted to decentralized technology.',
             },
             {
               name: 'keywords',
               content:
-                'decentralized, ethereum, software development, dao, metacartel',
+                'decentralized, dao, innovation',
             },
-            { property: 'og:title', content: 'Raid Guild' },
-            { property: 'og:url', content: 'https://raidguild.org' },
+            { property: 'og:title', content: 'Senary Blockchain Ventures' },
+            { property: 'og:url', content: 'https://senaryblockchain.ventures' },
             {
               property: 'og:image',
               content: 'https://raidguild.org/images/raidguild_org.png',
@@ -43,7 +43,7 @@ const Layout = ({ children }) => (
             {
               property: 'og:description',
               content:
-                'A Decentralized Collective of Mercenaries Ready to Slay Your Web3 Product Demons',
+                'SBV is a multidisciplinary innovation firm devoted to decentralized technology.',
             },
             {
               property: 'og:type',
@@ -55,16 +55,16 @@ const Layout = ({ children }) => (
             },
             {
               name: 'twitter:creator',
-              content: 'Raid Guild',
+              content: 'Senary Blockchain Ventures',
             },
             {
               name: 'twitter:title',
-              content: 'Raid Guild',
+              content: 'Senary Blockchain Ventures',
             },
             {
               name: 'twitter:description',
               content:
-                'A Decentralized Collective of Mercenaries Ready to Slay Your Web3 Product Demons',
+                'SBV is a multidisciplinary innovation firm devoted to decentralized technology.',
             },
           ]}
         >
