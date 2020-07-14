@@ -1,19 +1,19 @@
 module.exports = {
   siteMetadata: {
-    title: 'Raid Guild',
+    title: 'Senary Blockchain Ventures',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'raid guild',
-        short_name: 'raid-guild',
+        name: 'Senary Blockchain Ventures',
+        short_name: 'SBV',
         start_url: '/',
         background_color: '#000',
-        theme_color: '#ff3864',
+        theme_color: '#77A7E6',
         display: 'minimal-ui',
-        icon: 'src/images/raidguild__icon.png',
+        icon: 'src/images/sbv__icon.png',
       },
     },
     'gatsby-plugin-netlify',
