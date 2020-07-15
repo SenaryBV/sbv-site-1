@@ -38,24 +38,21 @@ const IndexPage = () => (
             <img src={IconSBV1} />
             <h4>Workbench</h4>
             <p className="light">
-              Stay on top of the latest trends and developments while leveling
-              up your skills.
+            Our in-house project studio, Workbench is an evolving team of innovators and contributors incubating projects in Crypto, Web3 and DeFi.
             </p>
           </div>
           <div className="Column Column--33">
             <img src={IconSBV2} />
             <h4>Capital</h4>
             <p className="light">
-              We're serious about our work and its impacts on society, but we
-              also know how to have a good time.
+            Currently restricted to Partners, Capital executes high-yield market strategies and opportunistic investments to hedge or leverage other SBV activities, across crypto and DeFi.
             </p>
           </div>
           <div className="Column Column--33">
             <img src={IconSBV3} />
             <h4>Commonwealth</h4>
             <p className="light">
-              Join the ranks on the front lines and make a direct impact on the
-              world around you.
+            Commonwealth is a value-aligned venture advisory seeding symbiotic growth and community.
             </p>
           </div>
         </div>
