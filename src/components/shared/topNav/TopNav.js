@@ -41,7 +41,7 @@ const TopNav = () => {
             Get Involved
           </Link>
           <Link to="/our-story" onClick={toggleNav}>
-            Out Story
+            Our Story
           </Link>
         </div>
       </div>

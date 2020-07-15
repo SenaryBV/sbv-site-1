@@ -38,7 +38,7 @@ const Layout = ({ children }) => (
             { property: 'og:url', content: 'https://senaryblockchain.ventures' },
             {
               property: 'og:image',
-              content: 'https://raidguild.org/images/raidguild_org.png',
+              content: 'https://senaryblockchain.ventures/images/sbv-og-image.png',
             },
             {
               property: 'og:description',

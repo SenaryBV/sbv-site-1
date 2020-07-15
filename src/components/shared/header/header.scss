@@ -20,6 +20,9 @@
     .Logo {
       color: $primary;
       padding-left: 20px;
+      @media (max-width: $phone) {
+        padding-left: 0;
+      }
       width: 100%;
       text-decoration: none;
       &:hover {
@@ -39,7 +42,7 @@
         margin-right: 5px;
         vertical-align: middle;
         @media (max-width: $tablet) {
-          max-height: 48px;
+          max-height: 80px;
         }
       }
     }

@@ -17,5 +17,14 @@
 .Nav {
   .SocialLinks {
     margin-left: 50px;
+    @media (max-width: $tablet) {
+      margin-left: 0;
+    }
+    img {
+      @media (max-width: $tablet) {
+        height: 25px;
+      }
+
+    }
   }
 }

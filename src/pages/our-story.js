@@ -32,7 +32,7 @@ const OurStoryPage = () => (
                   <h2>Lidsky</h2>
                 </div>
               </div>
-              <div className="Column--75">
+              <div className="Column Column--75">
                 <p>Isaac is a serial entrepreneur and New York Times best-selling author. His experience with the innovative power of networked computation to reshape society is deep and diverse.</p>
                 <p>He has studied it. As an applied mathematics and computer science major at Harvard College, for example, he created a parallel-processing virtual machine environment that was later used to teach students software development for parallel-processing architectures. He also conducted research for Larry Lessig on the "browser wars" and Microsoft's landmark antitrust battle with the United States. (Lidsky systematically cataloged the changes made to an installation of Internet Explorer or Netscape Navigator by upgrading the Microsoft Windows operating system-for a variety of permutations of versions of all three products.) And Lidsky was the first Harvard Law School student to be named a Fellow of the Berkman Center For Internet & Society, where he worked for legends like Charles Nesson and Jonathan Zittrain, publishing original work and teaching Harvard undergrads about the ways society's laws and technologies shape each other.</p>
                 <p>He has built with it. For example, Lidsky Co-Founded [x+1] (f/k/a Poindexter Systems, f/k/a ru4.com) in 1999. Leveraging new internet protocols and emerging distribution models, Lidsky and his team built a suite of applications for marketers that was among the first to enable real-time programmatic targeting and dynamic content creation through advertising channels. Likewise, when Lidsky and his partners bought ODC Construction in 2011, they developed a suite of proprietary networked applications to capture tremendous value by reconciling disparate workflows. Reimagining high-volume residential construction as an enterprise in collaborative logistics, they turned a conventional construction subcontractor into a technology-driven, category-creating residential construction services company, growing the business ~15 times in 5 years.</p>
@@ -51,7 +51,7 @@ const OurStoryPage = () => (
                   <h2>Wasserman</h2>
                 </div>
               </div>
-              <div className="Column--75">
+              <div className="Column Column--75">
                 <p>Erich is an entrepreneur and leader of scaled, global sales and service organizations who focus on creating client value and success with enterprise software.</p>
                 <p>From posts in the US and around the world, Erich has lead organizations that have created extraordinary value for clients. They have done so by leading the solve complex business challenges through technology and service. Erich is a pioneer of automation in paid marketing, having co-founded New York-based technology company MediaMath in 2007 with wonderful partners. Together, the MediaMath team would invent and scale the category of Programmatic Marketing, introducing the foundational RTB protocol, algorithmic decisioning, workflow and supply chain optimization tools, and interoperability across established and emerging digital marketing channels.</p>
                 <p>Before his career in digital marketing technology, Erich was a vigorous civil liberties advocate, rising to lead a national civil liberties and civil rights organization based in Philadelphia, the Foundation for Individual Rights in Education, until 2004. As executive director, he was responsible for fundraising and growing the non-profit organization’s news media and legal networks, which would combine to shine sunlight on abuses of civil rights and would provide legal resources for litigation. He devoted himself to this organization at a time when technology available for executing fundraising and marketing strategies were just emerging. Seeing digital’s potential, he was inspired to pursue a career in digital communications.</p>
@@ -70,7 +70,7 @@ const OurStoryPage = () => (
                   <h2>Weinstein</h2>
                 </div>
               </div>
-              <div className="Column--75">
+              <div className="Column Column--75">
                 <p>Jonah is an experienced and mission-driven product leader. </p>
                 <p>In his time at MediaMath, Jonah quickly accrued a portfolio of central products - including various distributed systems related to digital identity. </p>
                 <p>While working to launch a non-proprietary and open-source identity system, Jonah discovered some literature on blockchain and Web 3. Recognizing its promise and importance, he left his post managing old-world identity products in search of a more respectful and self-sovereign future. </p>

@@ -3,7 +3,12 @@ import Layout from '../components/layout/layout'
 
 const NotFoundPage = () => (
   <Layout>
-    <h1>NOT FOUND</h1>
+    <div className="NotFound">
+      <div className="NotFound__Contents">
+        <h1>Page does not exist.</h1>
+        <h2>Hang up and please try again.</h2>
+      </div>
+    </div>
   </Layout>
 )
 
