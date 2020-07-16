@@ -150,7 +150,7 @@ iframe {
   &.Home {
     h1,
     p {
-      font-size: .9em;
+      font-size: .8em;
       line-height: 1.5em;
       max-width: 600px;
       margin-bottom: 50px;
@@ -179,6 +179,11 @@ iframe {
       }
     }
     @media (max-width: $phone) {
+      .Hero__Contents {
+        p {
+          font-size: 0.7em;
+        }
+      }
     }
   }
 }
@@ -186,18 +191,19 @@ iframe {
 .Block {
   position: relative;
   p {
-    font-size: 0.7em;
+    font-size: 0.65em;
     line-height: 1.75em;
     text-align: left;
   }
   h1 {
     font-weight: 700;
-    font-size: 2em;
+    font-size: 1.75em;
     color: white;
   }
   h4 {
     font-weight: 600;
     color: white;
+    font-size: 1em;
   }
   &.GetInvolved {
     text-align: left;
@@ -217,6 +223,11 @@ iframe {
   &__Contents {
     width: calc(100% - 200px);
     padding: $base-padding * 2;
+    @media (max-width: $phone) {
+      p {
+        font-size: .6em !important;
+      }
+    }
     @media (max-width: $tablet) {
       width: calc(100% - 100px);
       padding: $base-padding;
@@ -239,15 +250,18 @@ iframe {
     background-color: #141C27;
     h1 {
       font-weight: 700;
-      font-size: 2em;
+      font-size: 1.75em;
       color: $primary;
       margin-bottom: 30px;
     }
     p {
       max-width: 100%;
-      font-size: 0.7em;
+      font-size: 0.65em;
       line-height: 1.75em;
       margin-bottom: 30px;
+    }
+    @media (max-width: $phone) {
+      font-size: .8em;
     }
   }
   .OurStory__Contents {

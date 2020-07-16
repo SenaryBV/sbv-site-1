@@ -9,8 +9,8 @@ import JonahSrc from '../images/team-jonah.png'
 
 const OurStoryPage = () => (
   <Layout>
-    <div className="OurStory-wrapper">
-      <div className="Hero Home OurStory" id="ourstory-home">
+    <div className="OurStory-wrapper" id="ourstory-home">
+      <div className="Hero Home OurStory">
         <div className="Hero__Contents">
           <div className="OurStory__Contents">
           <h1>Our Story</h1>

@@ -19,11 +19,8 @@ const IndexPage = () => (
         We support web-based public utilities that democratize opportunity, more justly accrue and distribute value, and promote our greater humanity.
         </p>
         <div className="ButtonGroup">
-          <a className="Button" href="#get-involved">
+          <a className="Button Filled" href="mailto:contact@senaryblockchain.ventures">
             Contact Us
-          </a>
-          <a className="Button Filled" href="#get-involved">
-            Get Involved
           </a>
         </div>
         <SocialLinks />

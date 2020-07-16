@@ -19,7 +19,7 @@ const TopNav = () => {
     <>
       <nav className="TopNav__Desktop">
         <a href="/#home">Home</a>
-        <a href="/#commonwealth">Commonwealth</a>
+        <a href="/#commonwealth">Adventures</a>
         <a href="/#get-involved">Get Involved</a>
         <Link to="/our-story">Our Story</Link>
       </nav>
@@ -35,7 +35,7 @@ const TopNav = () => {
             Home
           </a>
           <a href="/#commonwealth" onClick={toggleNav}>
-            Commonwealth
+            Adventures
           </a>
           <Link to="/#get-involved" onClick={toggleNav}>
             Get Involved

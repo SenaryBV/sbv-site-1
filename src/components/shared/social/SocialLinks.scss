@@ -3,8 +3,6 @@
 .SocialLinks {
   display: inline-flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
   max-width: $grid;
   margin: 0 auto;
   justify-content: left;
@@ -16,15 +14,18 @@
 
 .Nav {
   .SocialLinks {
-    margin-left: 50px;
+    margin-right: 30px;
     @media (max-width: $tablet) {
       margin-left: 0;
     }
+    @media (min-width: 1100px) {
+      margin-left: 30px;
+    }
     img {
+      min-width: 30px;
       @media (max-width: $tablet) {
         height: 25px;
       }
-
     }
   }
 }
