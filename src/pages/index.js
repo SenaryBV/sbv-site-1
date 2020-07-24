@@ -42,7 +42,7 @@ const IndexPage = () => (
             <img src={IconSBV2} />
             <h4>Capital</h4>
             <p className="light">
-            Currently restricted to Partners, Capital executes high-yield market strategies and opportunistic investments to hedge or leverage other SBV activities, across crypto and DeFi.
+            Currently restricted to Partners, Capital executes high-yield market strategies and opportunistic investments to hedge or leverage other SBV activities, across Crypto and DeFi.
             </p>
           </div>
           <div className="Column Column--33">
@@ -60,12 +60,8 @@ const IndexPage = () => (
         <h1>Get Involved</h1>
         <div className="GetInvolved_Contents">
         <p>
-        We’re always eager to connect and to collaborate. Check out our Medium page to read
-        more about our strategic work and thinking. If you’d like to learn more about us; to
-        share your insights about the problems we’re solving; or to recruit our community’s
-        insights on the problems you are solving.</p>
-        <p className="bold">
-          Email <a href="mailto:contact@senaryblockchain.ventures">contact@senaryblockchain.ventures</a> and get us involved.
+          We’re always eager to connect and to collaborate. Check out our Medium page to read more about our strategic work and thinking. If you’d like to learn more about us, to share your insights about the problems we’re solving, or to recruit our community’s insights on the problems you are solving,
+          email <a href="mailto:contact@senaryblockchain.ventures">contact@senaryblockchain.ventures</a> and get us involved.
         </p>
         </div>
       </div>

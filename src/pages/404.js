@@ -5,8 +5,8 @@ const NotFoundPage = () => (
   <Layout>
     <div className="NotFound">
       <div className="NotFound__Contents">
-        <h1>Page does not exist.</h1>
-        <h2>Hang up and please try again.</h2>
+        <h1>Sorry, we’re temporarily out of webpages.</h1>
+        <h2>Please try again later 🙂</h2>
       </div>
     </div>
   </Layout>

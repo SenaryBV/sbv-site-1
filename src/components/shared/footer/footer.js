@@ -33,7 +33,7 @@ const Footer = ({ siteTitle }) => (
         </a>
         <a
           className="Nav__Link"
-          href="/our-story#ourstory-home"
+          href="/our-story/#ourstory-home"
           rel="noopener noreferrer"
         >
           Our Story
