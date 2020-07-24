@@ -10,34 +10,34 @@ const Footer = ({ siteTitle }) => (
   <div className="Footer">
     <div className="Footer__Contents">
       <nav className="Nav">
-        <a
+        <Link
           className="Nav__Link"
-          href="/#home"
+          to="/#home"
           rel="noopener noreferrer"
         >
           Home
-        </a>
-        <a
+        </Link>
+        <Link
           className="Nav__Link"
-          href="/#commonwealth"
+          to="/#commonwealth"
           rel="noopener noreferrer"
         >
           Adventures
-        </a>
-        <a
+        </Link>
+        <Link
           className="Nav__Link"
-          href="/#get-involved"
+          to="/#get-involved"
           rel="noopener noreferrer"
         >
           Get Involved
-        </a>
-        <a
+        </Link>
+        <Link
           className="Nav__Link"
-          href="/our-story/#ourstory-home"
+          to="/our-story/#ourstory-home"
           rel="noopener noreferrer"
         >
           Our Story
-        </a>
+        </Link>
         <SocialLinks />
         <div className="MadeByRaidGuild">
           <a href="https://raidguild.org/" target="_blank" rel="noopener noreferrer">

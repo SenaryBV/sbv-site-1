@@ -18,9 +18,9 @@ const TopNav = () => {
   return (
     <>
       <nav className="TopNav__Desktop">
-        <a href="/#home">Home</a>
-        <a href="/#commonwealth">Adventures</a>
-        <a href="/#get-involved">Get Involved</a>
+        <Link to="/#home">Home</Link>
+        <Link to="/#commonwealth">Adventures</Link>
+        <Link to="/#get-involved">Get Involved</Link>
         <Link to="/our-story">Our Story</Link>
       </nav>
       {/* Start Hamburger */}
@@ -31,12 +31,12 @@ const TopNav = () => {
       </button>
       <div className={mobileNavClass}>
         <div className="TopNav__Mobile--Contents">
-          <a href="/#home" onClick={toggleNav}>
+          <Link to="/#home" onClick={toggleNav}>
             Home
-          </a>
-          <a href="/#commonwealth" onClick={toggleNav}>
+          </Link>
+          <Link to="/#commonwealth" onClick={toggleNav}>
             Adventures
-          </a>
+          </Link>
           <Link to="/#get-involved" onClick={toggleNav}>
             Get Involved
           </Link>
