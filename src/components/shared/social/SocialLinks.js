@@ -8,7 +8,7 @@ import './SocialLinks.scss'
 
 const SocialLinks = () => (
   <div className="SocialLinks">
-    <a href="https://medium.com/@SenaryBV">
+    <a href="https://medium.com/senary-blockchain-ventures">
       <img src={IconMediumSrc} />
     </a>
     <a href="https://twitter.com/SenaryBV">
