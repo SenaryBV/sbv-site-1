@@ -73,7 +73,7 @@ const OurStoryPage = () => (
               <div className="Column Column--75">
                 <p>Jonah is an entrepreneur and mission-driven product leader.</p>
                 <p>He spent the bulk of his time at MediaMath contributing to various distributed systems related to digital identity. While working to launch a non-proprietary and open-source identity system, Jonah discovered some literature on blockchain and Web 3. Recognizing its promise and importance, he left his post managing old-world identity products in search of a more respectful and self-sovereign future.</p>
-                <p>Though his first foray into blockchain was focused on decentralized computational infrastructure, Jonah’s since grown passionate about DAOs, decentralized content networks, and crypto-economic systems that promote self-sovereignty, openness, and that work to remedy structural inequities.</p>
+                <p>Though his first inroad into blockchain was in leveraging decentralized computational infrastructure, Jonah’s since grown passionate about DAOs, decentralized content networks, and crypto-economic systems that promote self-sovereignty, openness, and that work to remedy structural inequities.</p>
                 <p>Jonah’s thrilled to join SBV with great friends, and grateful to be contributing to this critically important new era for public computing. In his spare time, Jonah enjoys outdoor activities and trading on dydx. He lives where the wind takes him, always close to his family. He’s very proud of his two younger brothers.</p>
               </div>
             </div>
