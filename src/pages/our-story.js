@@ -14,7 +14,7 @@ const OurStoryPage = () => (
         <div className="Hero__Contents">
           <div className="OurStory__Contents">
           <h1>Our Story</h1>
-            <p>United by deep respect and nurtured trust, We are three friends and equal business partners who are grateful to be part of the crypto revolution and eager to help build its better future.</p>
+            <p>United by deep respect and nurtured trust, we are three friends and equal business partners who are grateful to be part of the crypto revolution and eager to help build its better future.</p>
             <p>Isaac started Senary Blockchain Ventures in 2018 to explore blockchain opportunities as a technologist, as an entrepreneur, and as an investor.</p>
             <p>Isaac and Erich, lifelong best friends, partnered up for one of SBV's earliest projects. MediaMath, a company Erich co-Founded, hired SBV to analyze its strategic opportunities to leverage a decentralized tech stack for digital marketing. Jonah, a technologist recruited to MediaMath, caught wind of this work, volunteered his way onto the team and quickly became an invaluable contributor and cherished friend.</p>
             <p>SBV's work with MediaMath concluded in July of 2019, and Erich and Jonah left the company at the end of that year. This year the three became equal partners in Senary Blockchain Ventures. Together they explore blockchain opportunities as technologists, as entrepreneurs, and as investors.</p>
@@ -72,7 +72,7 @@ const OurStoryPage = () => (
               </div>
               <div className="Column Column--75">
                 <p>Jonah is an entrepreneur and mission-driven product leader.</p>
-                <p>He spent the bulk of his time at MediaMath contributing to various distributed systems related to digital identity. While working to launch a non-proprietary and open-source identity system, Jonah discovered some literature on blockchain and Web 3. Recognizing its promise and importance, he left his post managing old-world identity products in search of a more respectful and self-sovereign future.</p>
+                <p>He spent the bulk of his time at MediaMath contributing to various distributed systems related to digital identity. While working to launch a non-proprietary and open-source identity project, Jonah discovered some literature on blockchain and Web 3. Recognizing its promise and importance, he left his post managing old-world identity products in search of a more respectful and self-sovereign future.</p>
                 <p>Though his first inroad into blockchain was in leveraging decentralized computational infrastructure, Jonah’s since grown passionate about DAOs, decentralized content networks, and crypto-economic systems that promote self-sovereignty, openness, and that work to remedy structural inequities.</p>
                 <p>Jonah’s thrilled to join SBV with great friends, and grateful to be contributing to this critically important new era for public computing. In his spare time, Jonah enjoys outdoor activities and trading on dydx. He lives where the wind takes him, always close to his family. He’s very proud of his two younger brothers.</p>
               </div>
