@@ -33,23 +33,23 @@ const IndexPage = () => (
         <div className="Grid">
           <div className="Column Column--33">
             <img src={IconSBV1} />
-            <h4>Workbench</h4>
+            <h4>Studio</h4>
             <p className="light">
-            Our in-house project studio, Workbench is an evolving team of innovators and contributors incubating projects in Crypto, Web3 and DeFi.
+            Our in-house project studio, SBV Studio is an evolving team of innovators and contributors incubating projects in Crypto, Web3 and DeFi.
             </p>
           </div>
           <div className="Column Column--33">
             <img src={IconSBV2} />
             <h4>Capital</h4>
             <p className="light">
-            Currently restricted to Partners, Capital executes high-yield market strategies and opportunistic investments to hedge or leverage other SBV activities, across Crypto and DeFi.
+            Currently restricted to Partners, SBV Capital executes high-yield market strategies and opportunistic investments to hedge or leverage other SBV activities, across Crypto and DeFi.
             </p>
           </div>
           <div className="Column Column--33">
             <img src={IconSBV3} />
-            <h4>Commonwealth</h4>
+            <h4>Prudence</h4>
             <p className="light">
-            Commonwealth is a value-aligned venture advisory seeding symbiotic growth and community.
+            Prudence is a community of creative legal minds committed to enlightening the law and fostering its evolution. The right project with the right facts can help us tell the right story to the right people.
             </p>
           </div>
         </div>
