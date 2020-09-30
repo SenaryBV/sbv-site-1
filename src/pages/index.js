@@ -47,7 +47,7 @@ const IndexPage = () => (
           </div>
           <div className="Column Column--33">
             <img src={IconSBV3} />
-            <h4> Updates </h4>
+            <h4> Stay Tuned </h4>
             <p className="light">
            Stay tuned for updates! Lots more coming soon. 
             </p>
