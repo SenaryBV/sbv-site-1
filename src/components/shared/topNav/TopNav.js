@@ -19,7 +19,7 @@ const TopNav = () => {
     <>
       <nav className="TopNav__Desktop">
         <Link to="/#home">Home</Link>
-        <Link to="/#commonwealth">Adventures</Link>
+        <Link to="/#commonwealth">Studio</Link>
         <Link to="/#get-involved">Get Involved</Link>
         <Link to="/our-story">Our Story</Link>
       </nav>
