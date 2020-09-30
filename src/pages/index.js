@@ -35,7 +35,7 @@ const IndexPage = () => (
             <img src={IconSBV1} />
             <h4>Studio</h4>
             <p className="light">
-            Our values-aligned venture studio for incubating descrete projects in Crypto, Web3 and DeFi.
+            Our values-aligned venture studio for incubating discrete projects in Crypto, Web3 and DeFi.
             </p>
           </div>
           <div className="Column Column--33">
