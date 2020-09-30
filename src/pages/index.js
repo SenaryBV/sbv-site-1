@@ -40,16 +40,14 @@ const IndexPage = () => (
           </div>
           <div className="Column Column--33">
             <img src={IconSBV2} />
-            <h4>Capital</h4>
+            <h4></h4>
             <p className="light">
-            Currently restricted to Partners, SBV Capital executes high-yield market strategies and opportunistic investments to hedge or leverage other SBV activities, across Crypto and DeFi.
             </p>
           </div>
           <div className="Column Column--33">
             <img src={IconSBV3} />
-            <h4>Prudence</h4>
+            <h4></h4>
             <p className="light">
-            Prudence is a community of creative legal minds committed to enlightening the law and fostering its evolution. The right project with the right facts can help us tell the right story to the right people.
             </p>
           </div>
         </div>
