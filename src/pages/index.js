@@ -35,14 +35,14 @@ const IndexPage = () => (
             <img src={IconSBV1} />
             <h4>Studio</h4>
             <p className="light">
-            SBV Studio is an evolving team of innovators and contributors incubating valus-aligned projects in Crypto, Web3 and DeFi.
+            Studio is an evolving team of innovators and contributors seeding valus-aligned projects in Crypto, Web3 and DeFi.
             </p>
           </div>
           <div className="Column Column--33">
             <img src={IconSBV2} />
             <h4>Wave One</h4>
             <p className="light">
-            Studio's first wave of projects includes those focused on Housing, Media, Community, Innovation Design and Future of Work. 
+            Studio's first wave of projects are focused on Housing, Media, Community, Innovation Design and Future of Work. 
             </p>
           </div>
           <div className="Column Column--33">
