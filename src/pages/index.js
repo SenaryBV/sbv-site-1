@@ -42,7 +42,7 @@ const IndexPage = () => (
             <img src={IconSBV2} />
             <h4>Wave One</h4>
             <p className="light">
-            Studio's first wave of projects are focused on Housing, Media, Community, Innovation Design and Future of Work. 
+            Studio's first cohort of projects are focused on Housing, Media, Community, Innovation Design and Future of Work. 
             </p>
           </div>
           <div className="Column Column--33">
