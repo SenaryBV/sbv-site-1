@@ -35,7 +35,7 @@ const IndexPage = () => (
             <img src={IconSBV1} />
             <h4>Studio</h4>
             <p className="light">
-            Our in-house project studio, SBV Studio is an evolving team of innovators and contributors incubating projects in Crypto, Web3 and DeFi.
+            SBV Studio is an evolving team of innovators and contributors incubating valus-aligned projects in Crypto, Web3 and DeFi.
             </p>
           </div>
           <div className="Column Column--33">
